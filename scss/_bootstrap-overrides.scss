@@ -112,21 +112,23 @@ a {
 .btn-primary {
   background-color: $primary;
   border-color: $primary;
+  color: $white !important;
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($primary, 10%);
-    border-color: darken($primary, 10%);
+    background-color: darken($primary, 10%) !important;
+    border-color: darken($primary, 10%) !important;
   }
 }
 
 .btn-secondary {
   background-color: $secondary;
   border-color: $secondary;
+  color: $white !important;
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($secondary, 10%);
-    border-color: darken($secondary, 10%);
+    background-color: darken($secondary, 10%) !important;
+    border-color: darken($secondary, 10%) !important;
   }
 }

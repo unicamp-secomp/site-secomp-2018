@@ -418,19 +418,21 @@ a:focus, a:hover, a:active {
 .btn-primary {
   background-color: #8d4545;
   border-color: #8d4545;
+  color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #6b3434;
-  border-color: #6b3434;
+  background-color: #6b3434 !important;
+  border-color: #6b3434 !important;
 }
 
 .btn-secondary {
   background-color: #3f2b2b;
   border-color: #3f2b2b;
+  color: #fff !important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #211616;
-  border-color: #211616;
+  background-color: #211616 !important;
+  border-color: #211616 !important;
 }
