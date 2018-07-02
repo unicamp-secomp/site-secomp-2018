@@ -14,7 +14,9 @@ h6 {
 
 // Custom Horizontal Rule with Star Icon
 hr.light,
-hr.dark {
+hr.dark,
+hr.primary,
+hr.secondary {
   max-width: 15rem;
   padding: 0;
   text-align: center;
@@ -25,7 +27,9 @@ hr.dark {
 }
 
 hr.light:after,
-hr.dark:after {
+hr.dark:after,
+hr.primary:after,
+hr.secondary:after {
   position: relative;
   top: -.8em;
   display: inline-block;
@@ -44,9 +48,25 @@ hr.light:after {
 }
 
 hr.dark {
-  border-color: $secondary;
+  border-color: $gray-900;
 }
 hr.dark:after {
+  color: $gray-900;
+  background-color: $white;
+}
+
+hr.primary {
+  border-color: $primary;
+}
+hr.primary:after {
+  color: $primary;
+  background-color: white;
+}
+
+hr.secondary {
+  border-color: $secondary;
+}
+hr.secondary:after {
   color: $secondary;
   background-color: white;
 }

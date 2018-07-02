@@ -13,7 +13,9 @@ h6 {
 }
 
 hr.light,
-hr.dark {
+hr.dark,
+hr.primary,
+hr.secondary {
   max-width: 15rem;
   padding: 0;
   text-align: center;
@@ -24,7 +26,9 @@ hr.dark {
 }
 
 hr.light:after,
-hr.dark:after {
+hr.dark:after,
+hr.primary:after,
+hr.secondary:after {
   position: relative;
   top: -.8em;
   display: inline-block;
@@ -44,10 +48,28 @@ hr.light:after {
 }
 
 hr.dark {
-  border-color: #3f2b2b;
+  border-color: #212529;
 }
 
 hr.dark:after {
+  color: #212529;
+  background-color: #fff;
+}
+
+hr.primary {
+  border-color: #8d4545;
+}
+
+hr.primary:after {
+  color: #8d4545;
+  background-color: white;
+}
+
+hr.secondary {
+  border-color: #3f2b2b;
+}
+
+hr.secondary:after {
   color: #3f2b2b;
   background-color: white;
 }
