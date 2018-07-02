@@ -12,8 +12,8 @@ h6 {
   font-family: 'Roboto';
 }
 
-hr.star-light,
-hr.star-dark {
+hr.light,
+hr.dark {
   max-width: 15rem;
   padding: 0;
   text-align: center;
@@ -23,8 +23,8 @@ hr.star-dark {
   margin-bottom: 2.5rem;
 }
 
-hr.star-light:after,
-hr.star-dark:after {
+hr.light:after,
+hr.dark:after {
   position: relative;
   top: -.8em;
   display: inline-block;
@@ -34,21 +34,21 @@ hr.star-dark:after {
   font-size: 2em;
 }
 
-hr.star-light {
+hr.light {
   border-color: #fff;
 }
 
-hr.star-light:after {
+hr.light:after {
   color: #fff;
   background-color: #8d4545;
 }
 
-hr.star-dark {
-  border-color: #2e2e2e;
+hr.dark {
+  border-color: #3f2b2b;
 }
 
-hr.star-dark:after {
-  color: #2e2e2e;
+hr.dark:after {
+  color: #3f2b2b;
   background-color: white;
 }
 
@@ -129,6 +129,11 @@ section h2 {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
+  background: #8d4545;
+}
+
+#mainNav .navbar-toggler:active, #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
+  background: #3f2b2b;
 }
 
 @media (min-width: 992px) {
@@ -323,12 +328,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2e2e2e;
+  background-color: #3f2b2b;
   color: #fff;
 }
 
 .copyright {
-  background-color: #151515;
+  background-color: #211616;
 }
 
 a {
@@ -348,7 +353,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-secondary {
-  background-color: #2e2e2e !important;
+  background-color: #3f2b2b !important;
 }
 
 .bg-gray-100 {
@@ -400,7 +405,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-secondary {
-  color: #2e2e2e !important;
+  color: #3f2b2b !important;
 }
 
 .text-gray-100 {
@@ -439,14 +444,6 @@ a:focus, a:hover, a:active {
   color: #212529 !important;
 }
 
-.bg-white {
-  background-color: #fff !important;
-}
-
-.bg-black {
-  background-color: #fff !important;
-}
-
 .btn-primary {
   background-color: #8d4545;
   border-color: #8d4545;
@@ -458,11 +455,11 @@ a:focus, a:hover, a:active {
 }
 
 .btn-secondary {
-  background-color: #2e2e2e;
-  border-color: #2e2e2e;
+  background-color: #3f2b2b;
+  border-color: #3f2b2b;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #151515;
-  border-color: #151515;
+  background-color: #211616;
+  border-color: #211616;
 }
