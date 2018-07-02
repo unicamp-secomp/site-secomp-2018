@@ -121,6 +121,22 @@ section h2 {
   font-size: 3rem;
 }
 
+.logo-img {
+  width: 70%;
+}
+
+@media (min-width: 960px) {
+  .logo-img {
+    width: 55%;
+  }
+}
+
+@media (min-width: 1140px) {
+  .logo-img {
+    width: 45%;
+  }
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
