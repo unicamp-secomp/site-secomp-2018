@@ -94,6 +94,11 @@ section h2 {
   line-height: 3.1rem;
 }
 
+.icon-large {
+  padding: 1rem;
+  font-size: 3rem;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
