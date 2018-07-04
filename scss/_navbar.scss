@@ -13,14 +13,14 @@
       a.nav-link {
         color: $white;
         &:hover {
-          color: $primary;
+          color: lighten($primary, 30%);
         }
         &:active,
         &:focus {
           color: $white;
         }
         &.active {
-          color: $primary;
+          color: lighten($primary, 30%);
         }
       }
     }
